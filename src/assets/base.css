@@ -1,0 +1,45 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --color-green: rgb(1, 148, 104);
+  --color-green-hover: rgb(16, 148, 108);
+  --color-black: rgb(25, 6, 0);
+  --color-yellow: rgb(255, 195, 0);
+  --color-yellow-hover: rgb(255, 201, 25);
+  --color-orange: rgb(255, 119, 1);
+  --color-orange-hover: rgb(255, 133, 26);
+  --color-white: rgb(230, 230, 230);
+}
+
+/* semantic color variables for this project */
+:root {
+  --color-background: var(--color-green);
+  --color-text: var(--color-white);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-background);
+  transition: color 0.5s, background-color 0.5s;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border: none;
+  font-size: 16px;
+  transition: color 0.5s, background-color 0.5s;
+}
