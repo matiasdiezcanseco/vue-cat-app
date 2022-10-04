@@ -1,5 +1,5 @@
 {
-  "name": "vue-cat-app-2",
+  "name": "vue-cat-app",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
